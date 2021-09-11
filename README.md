@@ -15,10 +15,10 @@ include("vcard.php");
 //vCard content can be placed on initialization or method usage
 
 //Instantiate the library, optionally pass your vCard content
-$vCard = new vCard2JSON(vCard__content /*optional*/);
+$vCard = new vCard2JSON(_your_vCard_content);
 
 //Get JSON from vCard, optionally pass your vCard content
-$json = $vCard->getJSON(vCard__content /*optional*/);
+$json = $vCard->getJSON();
 
 ?>
 ```
